@@ -16,11 +16,23 @@
             padding: 10px;
             
         }
+        .amarelo{
+            background-color: yellow;
+        }
+        .vermelho{
+            background-color: red;
+        }
     </style>
 </head>
 <body>
     <h1>Exercicio de tabelas</h1>
     <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+            
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -33,7 +45,48 @@
             <td>F</td>
             <td>25</td>
             <td>Jornalista</td>
-
+        </tr>
+        <tr>
+            <td>Francisco</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Gari</td>
+        </tr>
+        <tr>
+            <td>Fernando</td>
+            <td>M</td>
+            <td>50</td>
+            <td>Oficeboy</td>
+        </tr>
+        <tr>
+            <td>Cristiane</td>
+            <td>F</td>
+            <td>53</td>
+            <td>Salgadeira</td>
+        </tr>
+        <tr>
+            <td>edmeia</td>
+            <td>F</td>
+            <td>56</td>
+            <td>Boleira</td>
+        </tr>
+        <tr>
+            <td>Antonia</td>
+            <td>F</td>
+            <td>76</td>
+            <td>Aposentada</td>
+        </tr>
+        <tr>
+            <td>Socorro</td>
+            <td>F</td>
+            <td>80</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Victor</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Engenheiro</td>
         </tr>
     </table>
     
